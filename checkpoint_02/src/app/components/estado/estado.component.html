@@ -1,0 +1,16 @@
+<h1>Exercício 2 - Lista de Estados</h1>
+
+<table border="1">
+  <thead>
+    <th>ID</th>
+    <th>Sigla</th>
+    <th>Nome</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let estado of lista">
+      <td>{{estado.id}}</td>
+      <td>{{estado.sigla}}</td>
+      <td>{{estado.nome}}</td>
+    </tr>
+  </tbody>
+</table>

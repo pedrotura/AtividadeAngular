@@ -1,0 +1,9 @@
+<h1>Exercício 1 - Lista de Pokémon</h1>
+
+<ul>
+  <li *ngFor="let pokemon of lista">
+    <p>Nome: {{pokemon.name}}</p>
+    <p>ID: {{pokemon.id}}</p>
+    <p><img src={{pokemon.imageUrl}} alt="Imagem do Pokémon"></p>
+  </li>
+</ul>
